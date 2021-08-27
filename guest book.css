@@ -1,0 +1,30 @@
+.guest-box{display: flex; flex-direction: column;overflow: scroll; height: 550px;}
+.guestbook-date{background-color: antiquewhite; margin: 10px; color: black; font-family: "NeoDunggeunmo"; padding: 10px;}
+.guestbook-text-box{ margin: 10px; flex: 2; text-align: justify;}
+
+.guestbook-image {
+  flex: 0 0 8rem;
+  height: 10rem;
+  background-size: cover;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+}
+.guestbook-text {
+  height: 8rem;
+  background-size: cover;
+  /* border: 2px solid blue; */
+  text-align: justify;
+  align-items: center;
+  padding: 0.7em 0;
+}
+
+.background-1 {
+  background-image: url("./images/background1.jpg");
+}
+
+.guestbook-image > img {
+  background-color: #eceff1;
+  width: 30%;
+}

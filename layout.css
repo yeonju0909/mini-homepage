@@ -1,0 +1,175 @@
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+}
+
+.update-box {
+  flex: 1;
+}
+
+.miniroom {
+  flex: 1;
+}
+
+.box-title {
+  font-family: "KOTRA_BOLD-Bold";
+  border-bottom: 1px solid grey;
+  color: #3b87ab;
+}
+
+.news-row {
+  display: flex;
+  font-size: 0.85rem;
+  margin: 3px 0;
+
+}
+
+
+.news-category {
+  padding: 0 6px;
+  margin-right: 6px;
+  color: white;
+  border-radius: 3px;
+}
+
+.category-pic {
+  background-color: #f15f5f;
+}
+
+.category-post {
+  background-color: #617dc1;
+}
+
+.menu-row {
+  display: flex;
+  border-bottom: 1px dashed grey;
+  margin: 3px 0;
+}
+
+.menu-item {
+  flex: 1;
+}
+
+.menu-num {
+  font-family: "NeoDunggeunmo";
+  padding-left: 6px;
+  color: #003399;
+}
+
+.P_wave{flex: 0.2; padding-top: 1em;}
+.menu-container {border: none; margin-top: 35px;}
+
+.menu-container>* {margin: 13px 0 0 3px; background-color:#ffd30f ;padding: 5px 0; border-radius: 9px; text-align: center; }
+
+.menu-container>div a{text-decoration: none; color: #fff;}
+
+.menu-container>div:hover{background-color: #0381cab2;}
+
+
+.b_gif img{width: 100%; height: 100%; padding: 10px 0 0 0;}
+
+
+.news-row > div a{text-decoration-line: none; color: black;}
+
+.news-row > div a:hover{text-decoration: underline;}
+/* .b_gif:hover{background-color: #0381cab2; margin: 0px;} */
+
+
+.box content-box{position: relative;}
+
+.date-box {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  height: 3rem;
+
+  border: 1px solid #e7e7e7;
+
+  display: flex;
+  align-items: center;
+  /* position: absolute;
+  width: 500px;
+  top: 55px;
+  left: 260px;
+  right: 15px;
+  height: 3rem;
+  display: flex;
+  align-items: center; */
+}
+
+.today {
+  flex: 0 0 2rem;
+  margin:  0 1rem;
+  text-align: center;
+  color: #3b87ab;
+  font-weight: 700;
+}
+
+.date-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date {
+  flex: 0 0 1.5rem;
+  color: #707070;
+  cursor: pointer;
+  text-align: center;
+}
+/* 
+.scroll-box {
+  position: absolute;
+  margin-top: 4rem;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: auto;
+} */
+
+.color-red {
+	color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+/* .diary_box{overflow: scroll; top: 120px;} */
+
+
+.diary-title{font-family: "KOTRA_BOLD-Bold";
+  color: #3b87ab; margin: 20px 0;}
+.diary{
+  position: absolute;
+  margin-top: 4rem;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: auto;
+}
+
+.diary_box{border: 1px solid #e7e7e7; margin: 8px;}
+.diary_title{color: #3b87ab;  font-size: 0.8rem}
+.diary_text{display: inline-block; margin: 10px; text-align: center;  font-size: 0.9rem}
+
+.h_diary_box{border: 1px solid white; text-align: center; padding: 20px; margin: 0 90px; color: white; }
+.fas fa-lock{ font-size: 1.5rem;color: black;}
+/* .h_diary_box a{color: white; } */
+/* .h_diary_text{display: inline-block; padding: 10px 0; } */
+/* .h_diary_box:hover{ border: 1px solid #e7e7e7; background-color: #ffd30f; color: black;transition: 2s ease all;}
+.h_diary_box a:hover{ color: black;transition: 800ms ease all;} */
+.secret-box{display: none;}
+.diary-button{background-color: white; color: white; border: white;}
+.diary-button:hover{background-color: #ffd30f; color: black;transition: 2s ease all; padding: 30px;}
+.diary-text{color: black;background-color: #ffd30f; }
